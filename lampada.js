@@ -10,6 +10,6 @@ function desligar() {
 
 function quebrar() {
     let lampada = document.getElementById('lampada');
-    lampada.src = 'quebrada.png'; 
+    lampada.src = ''; 
 }
 
