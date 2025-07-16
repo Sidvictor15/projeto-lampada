@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Acenda e Apague a Lâmpada</h1>
+    </header>
+
+    <section>
+        <div id="foto">
+            <img id="lampada" src="apagada.png" alt="Lâmpada" ondblclick="quebrar()">
+        </div>
+        <div>
+            <input type="button" value="Acender" onclick="ligar()">
+            <input type="button" value="Apagar" onclick="desligar()">
+            <input type="button" value="quebrar" ondblclick="quebrar()">
+        </div>
+    </section>
+
+    <footer>
+        <p>Sidneyvictor</p>
+    </footer>
+
+    <script src="lampada.js"></script>
+</body>
+</html>
